@@ -1,0 +1,53 @@
+/***************************************************
+           IMPORTING GOOGLE ONT FAMILY 
+**************************************************/
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+body {
+  background-color: #f2f2f2;
+  font-family: 'DM Sans', sans-serif;
+}
+
+/***************************************************
+           IMPORTING TAILWIND CSS  
+**************************************************/
+@layer tailwind-base, primevue, tailwind-utilities;
+
+@layer tailwind-base {
+  @tailwind base;
+}
+
+@layer tailwind-utilities {
+  @tailwind components;
+  @tailwind utilities;
+}
+
+/***************************************************
+           GLOBAL VARIABLES 
+**************************************************/
+:root {
+  --bgColor: #f2f2f2;
+  --primaryBgColor: white;
+  --commonColor: black;
+  --secondaryColor: #417ecf;
+  --hoverBackground: #5796eb;
+}
+
+.dark {
+  --bgColor: #1f1f1f;
+  --primaryBgColor: black;
+  --commonColor: white;
+  --secondaryColor: #417ecf;
+  --hoverBackground: #5796eb;
+}
+
+/****************************************************************************
+           UNSETTING DEFAULT DATATABLE'S POSITION TO SEE SIDEBAR POPUP 
+***************************************************************************/
+.p-datatable {
+  position: unset !important;
+}
+
+.p-datatable-thead {
+  position: unset !important;
+}
