@@ -1,35 +1,31 @@
-# vue
+# Vue Dashboard
 
-This template should help get you started developing with Vue 3 in Vite.
+A modern Vue 3 dashboard project built with PrimeVue, Yup, Vee-Validate, Pinia, Axios, and Vue Router. This project features a clean folder structure and includes API integration with a backend repository for authentication and data services.
 
-## Recommended IDE Setup
+---
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+## Features
+- **UI Library**: PrimeVue for responsive and feature-rich components.
+- **Form Validation**: Yup and Vee-Validate for robust client-side form validation.
+- **State Management**: Pinia for centralized state management.
+- **Routing**: Vue Router for managing navigation.
+- **HTTP Client**: Axios for API communication.
+- **Folder Structure**: Clean and scalable folder organization.
+- **Authentication**: OAuth-based login integrated with a Laravel backend.
 
-## Customize configuration
+---
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+## Prerequisites
+Ensure you have the following installed on your system:
+- [Node.js](https://nodejs.org/) (>= 16.x)
+- [Vue CLI](https://cli.vuejs.org/) or a package manager like `npm` or `yarn`
+- Backend repository setup from [OAuth_Laravel_With_User_Role_Permission](https://github.com/AungKaungMo/OAuth_Laravel_With_User_Role_Permission.git)
+
+---
 
 ## Project Setup
 
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
-```
+### Step 1: Clone Backend Repository
+First, set up the backend API by cloning the repository:
+```bash
+git clone https://github.com/AungKaungMo/OAuth_Laravel_With_User_Role_Permission.git
